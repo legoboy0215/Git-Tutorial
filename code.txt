@@ -1,0 +1,19 @@
+First this:
+
+git config --global user.name "Your Name Here"
+git config --global user.email "your_email@youremail.com"
+
+Then make a repo on github.com. If you have one, skip this.
+
+Next, create a dir on you PC locally called the same name as the one on here:
+
+mkdir NameHere
+
+Then:
+
+git init
+touch readme.md
+git add readme.txt
+git commit -m "A message here"
+git remote add origin https://github.com/usernameofyours/reponamehere.git
+git push -u origin branchnamehere
